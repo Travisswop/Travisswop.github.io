@@ -11,11 +11,17 @@ body {
 .container {
   width: 700px;
   height: 275px;
-  background: url("../assets/img/background.png") no-repeat;
   background-size: cover;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
+  position: relative;
+}
+img.background {
+  position: absolute;
+  width: 700px;
+  height: 275px;
+  z-index: -1;
 }
 .row {
   width: 100%;

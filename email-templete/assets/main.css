@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 700px;
+  height: 275px;
+  background: url("../assets/img/background.png") no-repeat;
+  background-size: cover;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.row {
+  width: 100%;
+}
+.first {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 10px;
+  padding-right: 10px;
+  position: relative;
+  top: 4px;
+  right: 10px;
+}
+.first img {
+  height: 40px;
+  width: auto;
+}
+.first h2 {
+  font-size: 20px;
+  margin: 0px;
+  font-weight: 400;
+  line-height: 25px;
+}
+.first p {
+  font-size: 8px;
+  margin: 0px;
+}
+.first div {
+  text-align: center;
+}
+.travis {
+  height: 100px;
+  width: auto;
+}
+.swopBox {
+  height: 100px;
+  width: auto;
+  margin-top: 10px;
+}
+.mobile {
+  height: 162px;
+  width: auto;
+}
+.second {
+  display: flex;
+  padding-top: 10px;
+}
+.second .col-3 {
+  width: 25%;
+  text-align: center;
+}
+.second .col-3 h2 {
+  margin: 0px;
+  color: #183147;
+}
+.icons a {
+  color: #183147;
+  font-size: 13px;
+}
+.second .col-3 h5 {
+  margin: 0px;
+  color: #183147;
+}
+.swop {
+  height: 22px;
+  width: auto;
+  margin-top: 8px;
+}
+.apple-google {
+  display: flex;
+  gap: 5px;
+}
+.apple-google img {
+  height: 25px;
+  width: auto;
+}
+.third {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.third h4 {
+  margin: 0px;
+  font-size: 20px;
+  font-weight: 300;
+  color: #fff;
+}
+.link-option {
+  display: grid;
+  gap: 8px;
+  margin-top: 5px;
+}
+.link-option a {
+  color: #fff;
+  background-image: linear-gradient(to right, #a286c1, #472a7d);
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 11px;
+  padding: 3px 0px;
+  width: 90%;
+  margin: auto;
+}

@@ -20,10 +20,6 @@ body {
   width: 100%;
 }
 .first {
-  display: flex;
-  justify-content: end;
-  align-items: center;
-  gap: 10px;
   padding: 10px;
   position: relative;
   background-image: linear-gradient(to right, #a286c1, #472a7d);
@@ -46,8 +42,13 @@ body {
   margin: 0px;
   color: #fff;
 }
-.first div {
+.first-text {
   text-align: center;
+  padding-right: 10px;
+}
+.first-text-right {
+  display: flex;
+  float: right;
 }
 .travis {
   height: 100px;
@@ -81,6 +82,7 @@ body {
 .icons a svg {
   height: 13px;
   width: auto;
+  color: #183147;
 }
 .second .col-3 h5 {
   margin: 0px;
@@ -118,11 +120,10 @@ body {
 .link-option a svg {
   height: 11px;
   width: auto;
+  color: #fff;
 }
 .link-option {
   display: grid;
-  gap: 8px;
-  margin-top: 5px;
 }
 .link-option a {
   color: #fff;
@@ -132,5 +133,5 @@ body {
   font-size: 11px;
   padding: 3px 0px;
   width: 90%;
-  margin: auto;
+  margin: 5px auto;
 }

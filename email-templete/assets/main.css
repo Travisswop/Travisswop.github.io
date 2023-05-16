@@ -7,6 +7,7 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  background-color: antiquewhite;
 }
 .container {
   width: 700px;
@@ -15,13 +16,6 @@ body {
   margin: auto;
   display: flex;
   flex-wrap: wrap;
-  position: relative;
-}
-img.background {
-  position: absolute;
-  width: 700px;
-  height: 275px;
-  z-index: -1;
 }
 .row {
   width: 100%;
@@ -31,10 +25,13 @@ img.background {
   justify-content: end;
   align-items: center;
   gap: 10px;
-  padding-right: 10px;
+  padding: 10px;
   position: relative;
   top: 4px;
   right: 10px;
+  background-image: linear-gradient(to right, #a286c1, #472a7d);
+  border-bottom-left-radius: 35px;
+  border-bottom-right-radius: 5px;
 }
 .first img {
   height: 40px;
@@ -45,10 +42,12 @@ img.background {
   margin: 0px;
   font-weight: 400;
   line-height: 25px;
+  color: #fff;
 }
 .first p {
   font-size: 8px;
   margin: 0px;
+  color: #fff;
 }
 .first div {
   text-align: center;
@@ -109,6 +108,11 @@ img.background {
   font-size: 20px;
   font-weight: 300;
   color: #fff;
+  background-image: linear-gradient(to right, #a286c1, #472a7d);
+  width: 100%;
+  text-align: center;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
 }
 .link-option {
   display: grid;

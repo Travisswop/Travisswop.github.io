@@ -7,7 +7,6 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: antiquewhite;
 }
 .container {
   width: 700px;
@@ -27,8 +26,6 @@ body {
   gap: 10px;
   padding: 10px;
   position: relative;
-  top: 4px;
-  right: 10px;
   background-image: linear-gradient(to right, #a286c1, #472a7d);
   border-bottom-left-radius: 35px;
   border-bottom-right-radius: 5px;
@@ -62,12 +59,12 @@ body {
   margin-top: 10px;
 }
 .mobile {
-  height: 162px;
-  width: auto;
+  height: auto;
+  width: 78%;
 }
 .second {
   display: flex;
-  padding-top: 10px;
+  padding: 15px 0px;
 }
 .second .col-3 {
   width: 25%;
@@ -80,6 +77,10 @@ body {
 .icons a {
   color: #183147;
   font-size: 13px;
+}
+.icons a svg {
+  height: 13px;
+  width: auto;
 }
 .second .col-3 h5 {
   margin: 0px;
@@ -113,6 +114,10 @@ body {
   text-align: center;
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
+}
+.link-option a svg {
+  height: 11px;
+  width: auto;
 }
 .link-option {
   display: grid;

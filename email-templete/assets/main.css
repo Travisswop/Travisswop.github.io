@@ -68,6 +68,7 @@ body {
 }
 .second {
   display: flex;
+  flex-wrap: wrap;
   padding: 15px 0px;
 }
 .second .col-3 {
@@ -82,7 +83,6 @@ body {
 }
 .icons a {
   color: #183147;
-  font-size: 13px;
 }
 .icons a img {
   height: 10px;
@@ -134,6 +134,11 @@ body {
   border-radius: 10px;
   margin-right: 10px;
 }
+#link-option-spacial {
+  background-color: transparent;
+  padding: 0px;
+  height: 18px;
+}
 .link-option {
   display: grid;
 }
@@ -148,4 +153,45 @@ body {
   margin: 5px auto;
   display: flex;
   align-items: center;
+}
+@media only screen and (min-width: 350px) and (max-width: 534px) {
+  .container {
+    width: 350px;
+  }
+  .second .col-3 h2 {
+    font-size: 12px;
+  }
+  .second .col-3 h5 {
+    font-size: 7px;
+  }
+  .link-option a img {
+    margin-right: 2px;
+    padding: 3px;
+  }
+  .link-option a {
+    font-size: 5px;
+    padding: 1px 5px;
+  }
+  .swopBox {
+    height: 45px;
+  }
+  .apple-google img {
+    height: 12px;
+  }
+  .swop {
+    height: 15px;
+  }
+  .mobile {
+    width: 100%;
+  }
+  .travis {
+    height: 55px;
+    width: auto;
+  }
+  #link-option-spacial {
+    height: 13px;
+  }
+  .second .col-3 p {
+    font-size: 8px;
+  }
 }
